@@ -15,21 +15,22 @@
         <ul class="nav">
         <a href="index.html">Home</a>
         </ul>
-
-    <a class="logo" href="#"><img src="res/images/me.jpg" width="100" height="100" alt="My picture"></a>
+    <a class="logo" href="login.html"><img src="res/images/me.jpg" width="100" height="100" alt="My picture"></a>
     </header>
 
+<main>
+    <form  action="index.html" method="get">
 
-<form action= "/page.php" method="get">
+        <label for="pbody">Post Body: </label>
+        <textarea name="pbody" rows="8" cols="25" placeholder="Write your post here!"></textarea>
 
-    <label for="pbody">Post Body: </label><br>
-    <textarea name="pbody" rows="8" cols="25" placeholder="Write your post here!"></textarea><br>
+        <label for="choose_file">Choose file: </label>
+        <input type="file" name="choose_file">
+        <input type="submit" value="Create Post">
 
-    <label for=“choose_file">Choose file: </label><br>
-    <input type="file" name="choose_file"><br>
-    <input type="submit" value="Create Post">
+    </form>
+</main>
 
-</form>
 
 
 
