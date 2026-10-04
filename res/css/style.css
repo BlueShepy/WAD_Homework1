@@ -1,10 +1,10 @@
 main {
-    display: flex;
+    display: flex; /* turns main into flexbox container */
     justify-content: center;
     align-items: center;
 
     min-height: 40vh;
-    margin-top: 40px;
+    margin-top: 40px; /* vaike vahe main ja form vahel */
 }
 
 form {
@@ -28,7 +28,7 @@ form > input {
     padding: 6px;
 }
 
-/* Adjacent Sibling Selector */
+/* Adjacent Sibling Selector, if it comes immediately after label */
 label + textarea {
     border: 1px solid #746161;
 }
@@ -87,6 +87,9 @@ section {
 }
 
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     padding-top: .5em;
     padding-bottom: .5em;
     border: 1px solid #646174;
