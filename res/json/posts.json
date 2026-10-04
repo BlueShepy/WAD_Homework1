@@ -1,7 +1,7 @@
 [
   {
     "author": "guy1",
-    "date": "tomorrow",
+    "date": "05.10.2026",
     "text": "just found this",
     "image": "res/images/post1.jpg",
     "id": "1"
@@ -12,31 +12,39 @@
     "date": "04.10.2026",
     "text": "look at my cat dawg",
     "image": "res/images/cat1.gif",
-    "id": "1"
+    "id": "2"
 
   },
   {
-    "author": "guy1",
-    "date": "tomorrow",
-    "text": "just found this",
-    "image": "res/images/post1.jpg",
-    "id": "1"
+    "author": "Mike Ehrmantraut",
+    "date": "03.10.2026",
+    "text": "Waltuh, I'm a cat waltuh",
+    "image": "res/images/cat4.jpg",
+    "id": "3"
 
   },
   {
-    "author": "guy1",
-    "date": "tomorrow",
-    "text": "just found this",
-    "image": "res/images/post1.jpg",
-    "id": "1"
+    "author": "Silly fella",
+    "date": "03.10.2026",
+    "text": "Send this to your silliest friends",
+    "image": "res/images/cat2.gif",
+    "id": "4"
 
   },
   {
-    "author": "guy1",
-    "date": "tomorrow",
-    "text": "just found this",
-    "image": "res/images/post1.jpg",
-    "id": "1"
+    "author": "Please send me your silliest cat photos!",
+    "date": "03.10.2026",
+    "text": "",
+    "image": "",
+    "id": "5"
+
+  },
+  {
+    "author": "Mrk",
+    "date": "02.10.2026",
+    "text": "My lovely cat <3",
+    "image": "res/images/cat3.jpg",
+    "id": "6"
 
   }
 ]
