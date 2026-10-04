@@ -9,7 +9,10 @@ async function showPosts() {
 
     article.innerHTML = `
       <header class="post-header">
-        <strong>${post.author}</strong>
+        <div class="post-user">
+            <img class="profile-picture" src="res/images/profile_pic.png" alt="profile picture">
+            <strong>${post.author}</strong>
+        </div>
         <time>${post.date}</time>
       </header>
       ${post.image ? `<img src="${post.image}" alt="post image">` : ""}

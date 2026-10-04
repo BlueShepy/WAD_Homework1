@@ -165,7 +165,7 @@ a {
     box-sizing: border-box;
     }
 
-    .post img {
+    .post > img {
     width: 100%;
     border-radius: 4px;
     }
@@ -173,4 +173,24 @@ a {
     .post-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+
     }
+
+    .post-user {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .post .profile-picture {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .post p {
+    margin: 12px 0 8px;
+}
