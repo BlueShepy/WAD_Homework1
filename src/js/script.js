@@ -1,22 +1,23 @@
-fetch("res/json/posts.json")
-  .then(response => response.json())
-  .then(posts => {
-    const container = document.getElementById("posts");
+async function showPosts() {
+  let response = await fetch("res/json/posts.json");
+  let posts = await response.json();
+  let container = document.getElementById("posts");
 
-    posts.forEach(post => {
-      const div = document.createElement("div");
-      div.className = "post";
+  for (let post of posts) {
+    let article = document.createElement("article");
+    article.className = "post";
 
-      div.innerHTML = `
-        <div class="post-header">
-          <strong>${post.author}</strong>
-          <span>${post.date}</span>
-        </div>
-        ${post.image ? `<img src="${post.image}" alt="post image">` : ""}
-        <p>${post.text}</p>
-      `;
+    article.innerHTML = `
+      <header class="post-header">
+        <strong>${post.author}</strong>
+        <time>${post.date}</time>
+      </header>
+      ${post.image ? `<img src="${post.image}" alt="post image">` : ""}
+      <p>${post.text}</p>
+    `;
 
-      container.appendChild(div);
-    });
-  })
-  .catch(err => console.error("Could not load posts:", err));
+    container.appendChild(article);
+  }
+}
+
+showPosts();
