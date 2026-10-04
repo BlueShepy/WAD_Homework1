@@ -181,3 +181,30 @@ section {
         font-weight: bold;
         text-align: center;
     }
+
+
+#posts {
+    display: flex;
+    flex-direction: column; /* stack posts vertically */
+    align-items: center;
+    gap: 20px;
+    }
+
+    .post {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+
+    .post img {
+    width: 100%;
+    border-radius: 4px;
+    }
+
+    .post-header {
+    display: flex;
+    justify-content: space-between;
+    }
