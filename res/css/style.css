@@ -23,10 +23,6 @@ form > label {
     font-weight: bold;
 }
 
-/* Child selector */
-form > input {
-    padding: 6px;
-}
 
 /* Adjacent Sibling Selector, if it comes immediately after label */
 label + textarea {
@@ -77,14 +73,6 @@ a {
     font-size: 1.1em;
       }
 
-section {
-    padding: 10px 15px;
-    margin: 10px;
-    display: block;
-        /* 
-          display: block - displays an element as a block element. It starts on a new line, and takes up the whole width
-       */
-}
 
 .header {
     position: sticky;
@@ -159,31 +147,6 @@ section {
         justify-content: space-between;
     }
 }
-
-  .grid {
-        margin: 20px auto;
-        width: 100%;
-        border: 1px solid #746161;
-        background-color: #ddd;
-        display: grid;
-        grid-template-columns: auto auto;
-        /*     
-          grid-template-columns - the grid-template-columns CSS property defines the numbers and  
-          sizing functions of the grid columns.
-        */
-        gap: 10px 10px;
-        /* 
-        gap: row-gap and column-gap.
-        */
-    }
-
-    .grid p {
-        background-color: rgb(177, 164, 164);
-        color: white;
-        padding: 20px;
-        font-weight: bold;
-        text-align: center;
-    }
 
 
 #posts {
